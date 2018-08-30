@@ -1,0 +1,105 @@
+* POS Machine Learning
+** Customer Analysis
+- https://www.strong.io/blog/five-things-every-startup-should-be-doing-with-its-data
+
+predicting and understanding your customers’ actions
+
+Predicting:
+Or by determining who is at risk of churn (leaving your company)
+lower churn rate, higher conversion rate.
+
+By identifying an action a customer will take before they take
+it, you can tailor your interactions with them to maximize their
+value. turn business strategy from reactive to proactive
+
+Prediction models typically rely on a variety of machine learning
+approaches, including gradient boosting, random forests, neural
+networks, or some Frankenstein-like ensemble of many models.
+
+Understanding customer purchase patterns helps increase sales and
+also makes predicting inventory demand much easier, especially
+for seasonal and trend-based items.
+(https://www.forbes.com/sites/blakemorgan/2018/02/21/what-should-machine-learning-actually-learn-about-your-customers/#485ad431224c)
+When combined with external sources we can new promotion strategy
+
+Understanding:
+
+understanding the underlying factors that drive customer actions
+is also important and, from a decision-making perspective, often
+more rewarding. At the heart of understanding is explanation —
+why did a customer leave? Why did they sign up? Why are they
+having trouble? Identifying these causal factors underlying an
+action give you the potential for intervention: manipulating some
+factor in order to increase the likelihood of a desired outcome,
+or reduce the likelihood of an undesired outcome.
+
+Common statistical models used for understanding actions include
+decision trees, linear models, principal components analysis, and
+Bayesian models.
+
+*** Service Provider Switching
+proactive strategies
+upgrading to a more expensive product
+- https://www.strong.io/blog/predicting-customer-behavior-machine-learning-to-identify-paying-customers
+
+*** Target Market High Value Users
+
+- For each user on a trial, we had standard information like
+  their name, email, the number and timing of their logins, the
+  number of times they had used various parts of the product, and
+  their success rate with using the product, as well as several
+  other metrics unique to their experience with this particular
+  product.
+- who had historically purchased the product, such as their
+  gender (predicted using their first name and a name-gender
+  database)
+- the week day they signed up, the hour they signed up, and their
+  email provider
+
+temporal structure
+
+*** External Sources
+- Discount Info from supermarkets
+- Ads from facebook
+-
+
+*** Experiment
+- https://www.optimizely.com/anz/customers/earnest/
+
+*** Behavior
+- https://becominghuman.ai/predicting-buying-behavior-using-machine-learning-a-case-study-on-sales-prospecting-part-i-3bf455486e5d
+Most of our buying decisions are not based on well-defined logic.
+Emotions, trust, communication skills, culture and intuition
+plays a big role in our buying decisions.
+
+Although humans do not follow a well-defined logic, we do have
+some repeated patterns. We often buy the same things, behave in a
+similar way and follow similar intuitions.
+
+Based on the four questions mentioned above, we try to extract
+relevant features from answers of the questions. An example of
+such features can be as following
+
+- Who is your best customer: Customer size, Decision maker,
+  Growth last year
+- Why they became customers: Location, First reference (personal
+  contact, content marketing etc), Product features(Feature 1,
+  Feature 2)
+- Why they still buy: Customer service, Location, Product
+  features
+- Why they choose us over others: First reference, Product
+  features(Feature 1, Feature 2), Location
+
+- https://www.forbes.com/sites/blakemorgan/2018/02/21/what-should-machine-learning-actually-learn-about-your-customers/#485ad431224c
+
+what customers purchase and when they purchase it
+
+
+
+** Data Pipeline
+
+- Data integration
+- have a process for ongoing model integration, updating, and
+  validation of the models. But doing so can be tremendously
+  helpful to a startup looking to maximize efficiency and
+  effectiveness for fast growth.
